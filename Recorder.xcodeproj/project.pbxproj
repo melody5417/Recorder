@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F3300861E822A2200ACBEAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3300851E822A2200ACBEAA /* main.m */; };
+		4F3300881E822A2200ACBEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3300871E822A2200ACBEAA /* Assets.xcassets */; };
+		4F33008B1E822A2200ACBEAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3300891E822A2200ACBEAA /* MainMenu.xib */; };
+		4F3300971E822AB100ACBEAA /* YQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3300951E822AB100ACBEAA /* YQAppDelegate.m */; };
+		4F33009B1E822B1000ACBEAA /* YQWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3300991E822B1000ACBEAA /* YQWindowController.m */; };
+		4F33009C1E822B1000ACBEAA /* YQWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F33009A1E822B1000ACBEAA /* YQWindowController.xib */; };
+		4F3300A71E826A4300ACBEAA /* YQRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3300A61E826A4300ACBEAA /* YQRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F33007E1E822A2200ACBEAA /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3300851E822A2200ACBEAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F3300871E822A2200ACBEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F33008A1E822A2200ACBEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F33008C1E822A2200ACBEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3300951E822AB100ACBEAA /* YQAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAppDelegate.m; sourceTree = "<group>"; };
+		4F3300961E822AB100ACBEAA /* YQAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAppDelegate.h; sourceTree = "<group>"; };
+		4F3300981E822B1000ACBEAA /* YQWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQWindowController.h; sourceTree = "<group>"; };
+		4F3300991E822B1000ACBEAA /* YQWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQWindowController.m; sourceTree = "<group>"; };
+		4F33009A1E822B1000ACBEAA /* YQWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQWindowController.xib; sourceTree = "<group>"; };
+		4F3300A51E826A4300ACBEAA /* YQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQRecorder.h; sourceTree = "<group>"; };
+		4F3300A61E826A4300ACBEAA /* YQRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F33007B1E822A2200ACBEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3300751E822A2200ACBEAA = {
+			isa = PBXGroup;
+			children = (
+				4F3300801E822A2200ACBEAA /* Recorder */,
+				4F33007F1E822A2200ACBEAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F33007F1E822A2200ACBEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F33007E1E822A2200ACBEAA /* Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3300801E822A2200ACBEAA /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				4F3300961E822AB100ACBEAA /* YQAppDelegate.h */,
+				4F3300951E822AB100ACBEAA /* YQAppDelegate.m */,
+				4F3300871E822A2200ACBEAA /* Assets.xcassets */,
+				4F3300891E822A2200ACBEAA /* MainMenu.xib */,
+				4F33008C1E822A2200ACBEAA /* Info.plist */,
+				4F3300841E822A2200ACBEAA /* Supporting Files */,
+				4F3300981E822B1000ACBEAA /* YQWindowController.h */,
+				4F3300991E822B1000ACBEAA /* YQWindowController.m */,
+				4F33009A1E822B1000ACBEAA /* YQWindowController.xib */,
+				4F3300A51E826A4300ACBEAA /* YQRecorder.h */,
+				4F3300A61E826A4300ACBEAA /* YQRecorder.m */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		4F3300841E822A2200ACBEAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F3300851E822A2200ACBEAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F33007D1E822A2200ACBEAA /* Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F33008F1E822A2200ACBEAA /* Build configuration list for PBXNativeTarget "Recorder" */;
+			buildPhases = (
+				4F33007A1E822A2200ACBEAA /* Sources */,
+				4F33007B1E822A2200ACBEAA /* Frameworks */,
+				4F33007C1E822A2200ACBEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recorder;
+			productName = Recorder;
+			productReference = 4F33007E1E822A2200ACBEAA /* Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3300761E822A2200ACBEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = melody5417;
+				TargetAttributes = {
+					4F33007D1E822A2200ACBEAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F3300791E822A2200ACBEAA /* Build configuration list for PBXProject "Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3300751E822A2200ACBEAA;
+			productRefGroup = 4F33007F1E822A2200ACBEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F33007D1E822A2200ACBEAA /* Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F33007C1E822A2200ACBEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3300881E822A2200ACBEAA /* Assets.xcassets in Resources */,
+				4F33008B1E822A2200ACBEAA /* MainMenu.xib in Resources */,
+				4F33009C1E822B1000ACBEAA /* YQWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F33007A1E822A2200ACBEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F33009B1E822B1000ACBEAA /* YQWindowController.m in Sources */,
+				4F3300971E822AB100ACBEAA /* YQAppDelegate.m in Sources */,
+				4F3300861E822A2200ACBEAA /* main.m in Sources */,
+				4F3300A71E826A4300ACBEAA /* YQRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F3300891E822A2200ACBEAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F33008A1E822A2200ACBEAA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F33008D1E822A2200ACBEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F33008E1E822A2200ACBEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F3300901E822A2200ACBEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Recorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.Recorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F3300911E822A2200ACBEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Recorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.Recorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3300791E822A2200ACBEAA /* Build configuration list for PBXProject "Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F33008D1E822A2200ACBEAA /* Debug */,
+				4F33008E1E822A2200ACBEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F33008F1E822A2200ACBEAA /* Build configuration list for PBXNativeTarget "Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3300901E822A2200ACBEAA /* Debug */,
+				4F3300911E822A2200ACBEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3300761E822A2200ACBEAA /* Project object */;
+}
