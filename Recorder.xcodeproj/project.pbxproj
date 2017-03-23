@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491FF9861E82B17C0097C776 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491FF9851E82B17C0097C776 /* AVFoundation.framework */; };
+		491FF9891E83EEF20097C776 /* YQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 491FF9881E83EEF20097C776 /* YQPlayer.m */; };
 		4F3300861E822A2200ACBEAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3300851E822A2200ACBEAA /* main.m */; };
 		4F3300881E822A2200ACBEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3300871E822A2200ACBEAA /* Assets.xcassets */; };
 		4F33008B1E822A2200ACBEAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3300891E822A2200ACBEAA /* MainMenu.xib */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491FF9851E82B17C0097C776 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		491FF9871E83EEF20097C776 /* YQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPlayer.h; sourceTree = "<group>"; };
+		491FF9881E83EEF20097C776 /* YQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPlayer.m; sourceTree = "<group>"; };
 		4F33007E1E822A2200ACBEAA /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3300851E822A2200ACBEAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F3300871E822A2200ACBEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491FF9861E82B17C0097C776 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491FF9841E82B17C0097C776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				491FF9851E82B17C0097C776 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F3300751E822A2200ACBEAA = {
 			isa = PBXGroup;
 			children = (
 				4F3300801E822A2200ACBEAA /* Recorder */,
 				4F33007F1E822A2200ACBEAA /* Products */,
+				491FF9841E82B17C0097C776 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +87,8 @@
 				4F33009A1E822B1000ACBEAA /* YQWindowController.xib */,
 				4F3300A51E826A4300ACBEAA /* YQRecorder.h */,
 				4F3300A61E826A4300ACBEAA /* YQRecorder.m */,
+				491FF9871E83EEF20097C776 /* YQPlayer.h */,
+				491FF9881E83EEF20097C776 /* YQPlayer.m */,
 			);
 			path = Recorder;
 			sourceTree = "<group>";
@@ -155,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491FF9891E83EEF20097C776 /* YQPlayer.m in Sources */,
 				4F33009B1E822B1000ACBEAA /* YQWindowController.m in Sources */,
 				4F3300971E822AB100ACBEAA /* YQAppDelegate.m in Sources */,
 				4F3300861E822A2200ACBEAA /* main.m in Sources */,

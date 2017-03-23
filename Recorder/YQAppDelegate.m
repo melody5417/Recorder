@@ -8,6 +8,7 @@
 
 #import "YQAppDelegate.h"
 #import "YQWindowController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface YQAppDelegate ()
 @property (nonatomic, strong) YQWindowController *windowController;
@@ -17,7 +18,6 @@
 @implementation YQAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
     self.windowController = [[YQWindowController alloc] initWithWindowNibName:@"YQWindowController"];
     [self.windowController showWindow:nil];
 }

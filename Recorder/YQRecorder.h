@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^recordStopCompletionBlock) (BOOL, NSURL *);
+
 @interface YQRecorder : NSObject
+
+// control methods
+- (BOOL)startRecord;
+- (void)pause;
+- (void)stopWithCompletionBlock:(recordStopCompletionBlock)block;
+
 
 @end

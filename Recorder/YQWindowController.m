@@ -7,9 +7,13 @@
 //
 
 #import "YQWindowController.h"
+#import "YQRecorder.h"
+#import "YQPlayer.h"
 
 @interface YQWindowController ()
-
+@property (nonatomic, strong) YQRecorder *recorder;
+@property (nonatomic, strong) YQPlayer *player;
+@property (nonatomic, strong) NSURL *fileURL;
 @end
 
 @implementation YQWindowController
@@ -22,14 +26,28 @@
 
 - (IBAction)startAction:(id)sender {
     NSLog(@"%s", __FUNCTION__);
+    self.recorder = [[YQRecorder alloc] init];
+    [self.recorder startRecord];
 }
 
 - (IBAction)stopAction:(id)sender {
     NSLog(@"%s", __FUNCTION__);
+    void(^stopBlock)(BOOL, NSURL *) = ^(BOOL success, NSURL *fileURL) {
+        if (success) {
+            self.fileURL = fileURL;
+        }
+    };
+    [self.recorder stopWithCompletionBlock:stopBlock];
 }
 
 - (IBAction)playAction:(id)sender {
     NSLog(@"%s", __FUNCTION__);
+    if (self.fileURL
+        && [[NSFileManager defaultManager] fileExistsAtPath:self.fileURL.absoluteString]) {
+        
+        self.player = [[YQPlayer alloc] initWithURL:self.fileURL];
+        [self.player play];
+    }
 }
 
 
